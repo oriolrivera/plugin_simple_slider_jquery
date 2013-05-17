@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Plugin Simple Slider</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/marquesina.jquery.js"></script>
+
+    
+</head>
+		<body>
+
+			<section>
+				<a href="#" id="anterior">&laquo;</a>
+				<div id="marco">
+					<ul>
+						<li><img src="img/1.jpg" alt=""> </li>
+						<li><img src="img/2.jpg" alt=""> </li>
+						<li><img src="img/3.jpg" alt=""> </li>
+						<li><img src="img/4.jpg" alt=""> </li>
+						<li><img src="img/5.jpg" alt=""> </li>
+					</ul>
+				</div>
+				<a href="#" id="siguiente">&raquo;</a>
+			</section>
+			 <script type="text/javascript">
+				    $(function() {
+				        $('#marco').marquesina('#anterior', '#siguiente');
+				    });
+		    </script>
+			
+		</body>
+</html>

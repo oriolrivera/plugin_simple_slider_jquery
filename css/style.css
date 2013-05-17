@@ -1,0 +1,85 @@
+body{
+	background-color:#ccc;
+}
+
+a#siguiente{
+	left: -35px;
+}
+
+a#siguiente:hover{
+	left: -25px;
+}
+
+a#anterior{
+	right: -35px;
+}
+
+a#anterior:hover{
+	right: -25px;
+}
+
+section{
+	margin:70px auto;
+	text-align: center;
+	width: 650px;
+}
+
+section a {
+	background-color: #ededed;
+	border-radius: 50%;
+	color:#444;
+	font-size: 4em;
+	line-height: 60px;
+	padding-bottom: 12px;
+	position: relative;
+	text-decoration: none;
+	width: 72px;
+	z-index: 2;
+}
+
+section a:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+section a, #marco{
+	display: inline-block;/*para poner marco a los lados*/
+	vertical-align: middle;/*para centrar al lado de los elementos*/
+
+}
+
+img{
+	height: 167px;
+	width: 860px;
+}
+
+#marco{
+	border:10px solid #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 25px 5px rgba(0, 0, 0,3);
+	overflow: hidden;/*no ver element conten id*/
+	position: relative;
+	width: 460px;
+	z-index: 5;
+}
+
+#marco ul{
+	margin:0;
+	padding: 0;
+	position: relative;/*necesario para que el efecto next y back tengan funcion*/
+    width: 1200px;
+}
+
+#marco li{
+	background-color: #ccc;
+	font-size: 30px;
+	/*border:solid 1px red;*/
+	float: left;
+	height: 167px;
+	list-style: none;
+	line-height: 167px;
+	margin:0;
+	position: relative;
+	width: 460px;
+
+}
