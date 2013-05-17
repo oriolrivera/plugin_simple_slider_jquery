@@ -87,9 +87,13 @@
 
                   	estaMoviendo = true;
                   	$container.animate({
+                      "opacity":"0.5",
                         left: '+=' + incremento,
                   	}, 'swing', function(){
                          estaMoviendo = false;
+                         $container.animate({
+                          "opacity":"1",
+                         });
                   	});
                   };
 			}); //end prev
