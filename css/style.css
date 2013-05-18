@@ -1,0 +1,100 @@
+body{
+	background-color:#ccc;
+}
+
+a#siguiente{
+	left: 211px;
+}
+
+
+a#anterior{
+	right: -235px;
+}
+
+
+
+.cont-btn-s{
+	background-color: #333333;
+
+}
+
+.cont-btn-s p{
+    color: #fff;
+    text-align: left;
+    /*background-color: red;*/
+    width: 440px;
+    margin-top: -30px;
+}
+
+.cont-btn-s h2{
+    color: #fff;
+    text-align: left;
+    /*background-color: gray;*/
+    margin-bottom: 40px;
+    width: 440px;
+    margin-top: -60px;
+}
+
+#slider{
+	margin:70px auto;
+	text-align: center;
+	width: 650px;
+}
+
+#slider a {
+	background-color: #ededed;
+	color:#444;
+	font-size: 3em;
+	padding-bottom: 5px;
+	position: relative;
+	text-decoration: none;
+	margin: 10px;
+	*margin-left: 200px;
+	width: 42px;
+	z-index: 2;
+}
+
+#slider a:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+#slider a, #marco{
+	display: inline-block;/*para poner marco a los lados*/
+	vertical-align: middle;/*para centrar al lado de los elementos*/
+
+}
+
+#slider img{
+	height: 370px;
+	width: 565px;
+}
+
+#marco{
+	overflow: hidden;/*no ver element conten id*/
+	position: relative;
+	width: 550px;
+	z-index: 5;
+
+}
+
+#marco ul{
+	margin:0;
+	padding: 0;
+	position: relative;/*necesario para que el efecto next y back tengan funcion*/
+    width: 1200px;
+
+}
+
+#marco li{
+	background-color: #ccc;
+	font-size: 30px;
+	float: left;
+	height: 360px;
+	list-style: none;
+	line-height: 167px;
+	margin:0;
+	position: relative;
+	width: 550px;
+
+}

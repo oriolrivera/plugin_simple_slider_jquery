@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Plugin Simple Slider</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+
+
+</head>
+		<body>
+
+			<section id="slider">
+
+				<div id="marco">
+					<ul>
+						<li><img src="img/1.jpg" alt=""> </li>
+						<li><img src="img/2.jpg" alt=""> </li>
+						<li><img src="img/3.jpg" alt=""> </li>
+						<li><img src="img/4.jpg" alt=""> </li>
+						<li><img src="img/5.jpg" alt=""> </li>
+					</ul>
+					<div class="cont-btn-s">
+					     <a href="#" id="anterior">&laquo;</a>
+				         <a href="#" id="siguiente">&raquo;</a>
+				         <h2>Titulo Slider</h2>
+				         <p>
+				         	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, ex, a, fugit ad error pariatur et nulla ratione optio modi...</p>
+				    </div>
+
+				</div>
+
+			</section>
+
+			 <script type="text/javascript">
+				    $(function() {
+				        $('#marco').marquesina('#anterior', '#siguiente');
+				    });
+		    </script>
+
+		</body>
+</html>
